@@ -1,0 +1,106 @@
+/* body _____________________________________ */
+body {
+    font-size: 16px;
+    margin: 0 0;
+}
+
+/* header ___________________________________ */
+
+.header {
+    background-color: red;
+}
+
+.navbar {
+    display: flex;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0.65rem;
+    padding-inline: 1rem;
+}
+
+.image-logo{
+    display: grid;
+    align-items: center;
+    padding-right: 1.5rem;
+}
+
+.ulist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    width: 450px;
+}
+
+.ulist li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.ulist a {
+    text-decoration: none;
+    color: white;
+}
+
+.rgtbar {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 5.5rem;
+}
+
+.search {
+    width: 225px;
+    height: 35px;
+    border-radius: 0.25rem;
+    border: none;
+    padding-inline: 0.5rem;
+}
+
+.rgtbar a {
+    text-decoration: none;
+    color: white;
+}
+
+/* main _________________________________ */
+
+main {
+    margin: 0 0;
+}
+
+/* introduction _________________________ */
+
+.introduction {
+    height: 86vh;
+    display: flex;
+}
+
+.int-back {
+    background-image: url(img/back.jpg);
+    background-size: cover;
+}
+
+.int-over {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 900px;
+    margin-left: 30%;
+    }
+
+.int-over h1 {
+    font-size: 64px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.int-over p {
+    font-size: 24px;
+    color: white;
+}
