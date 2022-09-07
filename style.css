@@ -76,13 +76,14 @@ main {
 /* introduction _________________________ */
 
 .introduction {
-    height: 86vh;
+    height: 120vh;
     display: flex;
 }
 
 .int-back {
     background-image: url(img/back.jpg);
     background-size: cover;
+    width: 100%;
 }
 
 .int-over {
@@ -91,7 +92,7 @@ main {
     flex-direction: column;
     justify-content: center;
     width: 900px;
-    margin-left: 30%;
+    margin-left: 15%;
     }
 
 .int-over h1 {
@@ -103,4 +104,24 @@ main {
 .int-over p {
     font-size: 24px;
     color: white;
+}
+
+.emailbox {
+    height: 3rem;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    padding-inline: 1.25rem;
+    font-size: 16px;
+}
+
+.signbtn {
+    height: 3rem;
+    width: 200px;
+    background-color: #2ea62e;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
 }
